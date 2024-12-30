@@ -1,0 +1,29 @@
+[0.933s] Invoking command in '/home/naoki/ros2_ws/src/mypkg': PYTHONPATH=/home/naoki/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naoki/ros2_ws/build/mypkg/build install --record /home/naoki/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[1.074s] running egg_info
+[1.074s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.075s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.075s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.075s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.075s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.100s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.100s] running build
+[1.100s] running build_py
+[1.102s] copying mypkg/talker.py -> /home/naoki/ros2_ws/build/mypkg/build/lib/mypkg
+[1.102s] copying mypkg/listener.py -> /home/naoki/ros2_ws/build/mypkg/build/lib/mypkg
+[1.102s] running install
+[1.103s] running install_lib
+[1.105s] copying /home/naoki/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.105s] copying /home/naoki/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.106s] byte-compiling /home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.107s] byte-compiling /home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.107s] running install_data
+[1.108s] copying package.xml -> /home/naoki/ros2_ws/install/mypkg/share/mypkg
+[1.109s] running install_egg_info
+[1.110s] removing '/home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.110s] Copying ../../build/mypkg/mypkg.egg-info to /home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.112s] running install_scripts
+[1.125s] Installing listener script to /home/naoki/ros2_ws/install/mypkg/lib/mypkg
+[1.126s] Installing talker script to /home/naoki/ros2_ws/install/mypkg/lib/mypkg
+[1.127s] writing list of installed files to '/home/naoki/ros2_ws/build/mypkg/install.log'
+[1.143s] Invoked command in '/home/naoki/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/naoki/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naoki/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naoki/ros2_ws/build/mypkg/build install --record /home/naoki/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data

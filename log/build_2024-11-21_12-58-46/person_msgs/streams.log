@@ -1,0 +1,54 @@
+[0.224s] Invoking command in '/home/naoki/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/naoki/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/naoki/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/naoki/ros2_ws/install/person_msgs
+[0.307s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.332s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.332s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.481s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.015s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.232s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.232s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.232s]   person_msgs --arguments-file
+[2.232s]   /home/naoki/ros2_ws/build/person_msgs/rosidl_adapter__arguments__person_msgs.json
+[2.232s]   --output-dir
+[2.232s]   /home/naoki/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs
+[2.232s]   --output-file
+[2.232s]   /home/naoki/ros2_ws/build/person_msgs/rosidl_adapter/person_msgs.idls)
+[2.232s]   returned error code 1:
+[2.232s] 
+[2.232s]   Error processing 'tring name' of 'person_msgs/Person': ''tring' is an
+[2.232s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[2.232s] 
+[2.232s]   Traceback (most recent call last):
+[2.232s] 
+[2.232s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2.233s]       return _run_code(code, main_globals, None,
+[2.233s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2.233s]       exec(code, run_globals)
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.233s]       sys.exit(main())
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.233s]       abs_idl_file = convert_to_idl(
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[2.233s]       return convert_msg_to_idl(
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.233s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[2.233s]       Type(type_string, context_package_name=pkg_name),
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[2.233s]       super(Type, self).__init__(
+[2.233s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[2.233s]       raise InvalidResourceName(
+[2.233s] 
+[2.233s]   rosidl_adapter.parser.InvalidResourceName: 'tring' is an invalid message
+[2.233s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.233s] 
+[2.233s] Call Stack (most recent call first):
+[2.234s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.234s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[2.234s] 
+[2.234s] 
+[2.238s] -- Configuring incomplete, errors occurred!
+[2.238s] See also "/home/naoki/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[2.247s] Invoked command in '/home/naoki/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/naoki/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/naoki/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/naoki/ros2_ws/install/person_msgs
